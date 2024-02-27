@@ -1,0 +1,128 @@
+body { 
+font-family: "Plus jakarta Sans " , sans-serif !important;
+display: flex ; 
+flex-direction: column;
+min-height: 100vh;
+}
+
+.container {
+     flex: 1;
+}
+.navbar { 
+    height: 5rem; 
+    background-color: white;
+
+}
+.h3 { 
+    margin-top: 1rem !important;
+}
+.fa-compass { 
+    color: #fe424d;
+    font-size: 2rem;
+    filter: drop-shadow(1px 3px 1px rgb(0 0 0 / 0.2));
+}
+
+.nav-link { 
+    color: #222222 !important; 
+    text-shadow:0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.f-info-links a { 
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{ 
+    text-decoration: underline;
+} 
+.nav-link:hover{ 
+    color: #fe424d !important; 
+    transition: 0.3s ease;
+}
+
+.f-info-links , .f-info-socials , .f-info-brand{ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i { 
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+.f-info { 
+    text-align: center;
+    height: 8rem;
+    display: flex;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.listing-card { 
+    border: none !important;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease-in-out; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 1rem !important;
+}
+
+
+.card-img-top { 
+    border-radius: 1rem !important ;
+    width: 100% !important;
+    object-fit: cover !important;
+
+}
+
+.card-body { 
+    padding: 0; 
+}
+
+.card-text p  { 
+    font-weight: 400 !important;
+}
+
+.listing-link { 
+    text-decoration: none;
+}
+
+
+  
+  .card:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+.add-btn{ 
+    background-color: #fe424d !important;
+    border: none !important;
+    border-radius: 0.3rem;
+}
+
+.edit-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+    border-radius: 0.3rem; 
+    height: 2.4rem; 
+    width: 3.5rem;
+}
+
+.show-img { 
+    height: 30vh;
+} 
+
+.btns {
+    display: flex;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out; 
+}
+
+#map { 
+height: 400px;
+width: 80vh; 
+
+}
